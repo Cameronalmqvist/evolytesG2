@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class CombatController : MonoBehaviour
 {
-    public Animator Sphere;
+    public Animator Leva_Low;
     
     public void AttackOne()
     {
-        Sphere.SetTrigger("AttackOne");
+        Leva_Low.SetTrigger("AttackOneTrigger");
     }
 
     public void AttackTwo()
     {
-        Sphere.SetTrigger("AttackTwo");
+        Leva_Low.SetTrigger("AttackTwo");
     }
 }
